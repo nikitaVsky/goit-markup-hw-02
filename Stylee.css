@@ -161,3 +161,22 @@ color: rgba(255, 255, 255, 0.6);
     color: #FFFFFF;
     background-color: #2196F3;
 }
+.portfolio-img-header{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    
+    color: #212121;}
+    .portfolio-img-prop{font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+        letter-spacing: 0.03em;
+        
+        color: #757575;
+        }
