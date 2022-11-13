@@ -4,6 +4,12 @@
 .color-change:hover{
     color: #2196F3;
 }
+.color-change-gray{
+    color: #757575;
+}
+.color-change-gray:hover{
+    color: #2196F3;
+}
 .color-logo{
     color: black;
 }
@@ -12,8 +18,8 @@
 }
 body{
     font-family: Roboto;
-    line-height: normal;
-    letter-spacing: normal;
+    line-height: 171%;
+    letter-spacing: 0.03em;
     font-size: 14px;
 }
 .logo{
@@ -23,10 +29,10 @@ body{
     font-size: 26px;
     line-height: 31px;
     /* identical to box height */
-    letter-spacing: 0.03em;
+    
     
     color: #2196F3;}
-    .nav-bar{font-family: 'Roboto';
+    .nav-bar{
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -35,18 +41,17 @@ body{
         
         color: #212121;}
     
-    .upper-mail{
+    .upper-contact-info{
         
         color: #757575;}
-    .upper-tel{
-        color: #757575;
-        }
+        
+    
         .first-bg{
             
             background: #2F303A;
                     }
     .main-words{
-        font-family: 'Roboto';
+        
         font-style: normal;
         font-weight: 900;
         font-size: 44px;
@@ -58,7 +63,7 @@ body{
         
         color: #FFFFFF;}
         .first-btn{
-            font-family: 'Roboto';
+            font-family: inherit;
             font-style: normal;
             font-weight: 700;
             font-size: 16px;
@@ -78,66 +83,58 @@ body{
             }
     
         .section-headers{
-            font-family: 'Roboto';
+           
             font-style: normal;
             font-weight: 700;
             font-size: 14px;
             line-height: 16px;
-            letter-spacing: 0.03em;
+           
             text-transform: uppercase;
             
             color: #212121;}
-    .details{font-family: 'Roboto';
+    .details{
         font-style: normal;
-        font-weight: 400;
+        
         font-size: 14px;
         line-height: 24px;
         /* or 171% */
-        letter-spacing: 0.03em;
+      
         
         color: #757575;
         }
-        .headers{font-family: 'Roboto';
+        .headers{
             font-style: normal;
             font-weight: 700;
             font-size: 36px;
             line-height: 42px;
             text-align: center;
-            letter-spacing: 0.03em;
+      
             
             color: #212121;}
         .second-bg{background: #F5F4FA;}
         footer{background: #2F303A;}
-        .down-adress{font-family: 'Roboto';
+        .down-adress{
             font-style: normal;
-            font-weight: 400;
+            
             font-size: 14px;
             line-height: 24px;
             /* or 171% */
-            letter-spacing: 0.03em;
+        
             
             color: #FFFFFF;}
-.down-mail{font-family: 'Roboto';
+.down-contact-info{
     font-style: normal;
-    font-weight: 400;
+ 
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-    letter-spacing: 0.03em;
+   
+
     
     color: rgba(255, 255, 255, 0.6);
     }
-    .down-tel{font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
-}
+   
 .btn-colors-portfolio{
+    font-family: inherit;
     color: #212121;
     background-color: #F5F4FA;
     cursor: pointer;
@@ -148,19 +145,16 @@ font-size: 16px;
 line-height: 26px;
 /* identical to box height, or 162% */
 
-letter-spacing: 0.03em;
-
-color: #212121;
 
 
-background: #F5F4FA;
+
 border-radius: 4px;
 }
 .btn-colors-portfolio:hover{
     color: #FFFFFF;
     background-color: #2196F3;
 }
-.portfolio-img-header{font-family: 'Roboto';
+.portfolio-img-header{
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -169,36 +163,36 @@ border-radius: 4px;
     letter-spacing: 0.06em;
     
     color: #212121;}
-    .portfolio-img-prop{font-family: 'Roboto';
+    .portfolio-img-prop{
         font-style: normal;
-        font-weight: 400;
+       
         font-size: 16px;
         line-height: 30px;
         /* identical to box height, or 188% */
-        letter-spacing: 0.03em;
+       
         
         color: #757575;
         }
         .hide{
             display: none;
         }
-        .studio-img-header{font-family: 'Roboto';
+        .studio-img-header{
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
             line-height: 19px;
             /* identical to box height */
            
-            letter-spacing: 0.03em;
+ 
             
             color: #212121;}
-            .studio-img-prop{font-family: 'Roboto';
+            .studio-img-prop{
                 font-style: normal;
-                font-weight: 400;
+                
                 font-size: 16px;
                 line-height: 19px;
                 /* identical to box height */
                 
-                letter-spacing: 0.03em;
+                
                 
                 color: #757575;}
