@@ -10,6 +10,18 @@
 .color-change-gray:hover{
     color: #2196F3;
 }
+.color-change-white{
+    color: white;
+}
+.color-change-white:hover{
+    color: #2196f3;
+}
+.color-change-down{
+     color: rgba(255, 255, 255, 0.6);
+}
+.color-change-down:hover{
+    color: #2196f3;
+}
 .color-logo{
     color: black;
 }
@@ -18,10 +30,12 @@
 }
 body{
     font-family: Roboto;
-    line-height: 171%;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     font-size: 14px;
+   
 }
+
 .logo{
     font-family: 'Raleway';
     font-style: normal;
@@ -39,17 +53,9 @@ body{
         line-height: 16px;
         letter-spacing: 0.02em;
         
-        color: #212121;}
+        }
     
-    .upper-contact-info{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        
-        color: #757575;}
-        
+   
     
         .first-bg{
             
@@ -60,7 +66,7 @@ body{
         font-style: normal;
         font-weight: 900;
         font-size: 44px;
-        line-height: 136%;
+        line-height: 1.36;
         /* or 136% */
         text-align: center;
         letter-spacing: 0.06em;
@@ -72,7 +78,7 @@ body{
             font-style: normal;
             font-weight: 700;
             font-size: 16px;
-            line-height: 188%;
+            line-height: 1.88;
             /* identical to box height, or 188% */
             display: flex;
             align-items: center;
@@ -126,7 +132,7 @@ body{
             /* or 171% */
         
             
-            color: #FFFFFF;}
+            }
 .down-contact-info{
     font-style: normal;
  
@@ -135,7 +141,7 @@ body{
    
 
     
-    color: rgba(255, 255, 255, 0.6);
+   
     }
    
 .btn-colors-portfolio{
@@ -147,7 +153,7 @@ body{
     font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 162%;
+line-height: 1.62;
 /* identical to box height, or 162% */
 
 
@@ -163,7 +169,7 @@ border-radius: 4px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 200%;
+    line-height: 2.00;
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
     
@@ -172,7 +178,7 @@ border-radius: 4px;
         font-style: normal;
        
         font-size: 16px;
-        line-height: 188%;
+        line-height: 1.88;
         /* identical to box height, or 188% */
        
         
@@ -201,3 +207,4 @@ border-radius: 4px;
                 
                 
                 color: #757575;}
+                
